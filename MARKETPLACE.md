@@ -1,7 +1,10 @@
 # Marketplace listing — heyquarry
 
-Append this object to `.grok-plugin/marketplace.json` in https://github.com/xai-org/plugin-marketplace
-after publishing `heyquarry-grok-plugin` to a public GitHub repo and pinning its commit SHA.
+Published plugin repo: https://github.com/ankit662002/heyquarry-grok-plugin  
+Pinned SHA: `3992d496b8861b24b08674703c19bd4d2cfa5f23`  
+Marketplace PR: https://github.com/xai-org/plugin-marketplace/pull/450
+
+Entry appended to `.grok-plugin/marketplace.json`:
 
 ```json
 {
@@ -10,20 +13,11 @@ after publishing `heyquarry-grok-plugin` to a public GitHub repo and pinning its
   "category": "development",
   "source": {
     "source": "url",
-    "url": "https://github.com/REPLACE_ORG/heyquarry-grok-plugin.git",
-    "sha": "REPLACE_WITH_40_CHAR_COMMIT_SHA"
+    "url": "https://github.com/ankit662002/heyquarry-grok-plugin.git",
+    "sha": "3992d496b8861b24b08674703c19bd4d2cfa5f23"
   },
   "homepage": "https://heyquarry.com",
   "keywords": ["heyquarry", "shopify stores", "shopify apps", "ecommerce leads"],
   "domains": ["heyquarry.com"]
 }
 ```
-
-Then run:
-
-```bash
-python3 scripts/generate-plugin-index.py
-python3 scripts/validate-catalog.py
-```
-
-Open a PR to `xai-org/plugin-marketplace`.
