@@ -1,23 +1,41 @@
 # Marketplace listing — heyquarry
 
 Published plugin repo: https://github.com/ankit662002/heyquarry-grok-plugin  
-Pinned SHA: `3992d496b8861b24b08674703c19bd4d2cfa5f23`  
-Marketplace PR: https://github.com/xai-org/plugin-marketplace/pull/450
+Marketplace PR: https://github.com/xai-org/plugin-marketplace/pull/450  
+Product: https://heyquarry.com
 
-Entry appended to `.grok-plugin/marketplace.json`:
+## Listing copy (Research)
+
+- **Name:** HeyQuarry (`displayName`)
+- **Category:** `research`
+- **Description:** Free Shopify store database. Search stores by apps, niche, location, technology and more.
+- **Homepage:** https://heyquarry.com
+- **Keywords:** heyquarry, shopify stores, shopify apps, ecommerce leads, research
+- **Domains:** heyquarry.com
+
+## xAI plugin-marketplace entry
+
+Pin `source.sha` to the commit that ships the polished README + assets (update after each publish):
 
 ```json
 {
   "name": "heyquarry",
-  "description": "Shopify store + app catalog for Grok — search millions of stores and apps. Free: firmographics and app metadata only, no contact info.",
-  "category": "development",
+  "description": "Free Shopify store database. Search stores by apps, niche, location, technology and more.",
+  "category": "research",
   "source": {
     "source": "url",
     "url": "https://github.com/ankit662002/heyquarry-grok-plugin.git",
-    "sha": "3992d496b8861b24b08674703c19bd4d2cfa5f23"
+    "sha": "<full-40-char-sha>"
   },
   "homepage": "https://heyquarry.com",
-  "keywords": ["heyquarry", "shopify stores", "shopify apps", "ecommerce leads"],
+  "keywords": ["heyquarry", "shopify stores", "shopify apps", "ecommerce leads", "research"],
   "domains": ["heyquarry.com"]
 }
 ```
+
+## Reviewer notes
+
+- Category: **research** (store database / ecommerce market research)
+- Hosted MCP: `https://heyquarry.com/api/mcp`
+- Free responses redact emails, phones, socials, and people
+- README includes product overview, architecture, quotas, and screenshots
