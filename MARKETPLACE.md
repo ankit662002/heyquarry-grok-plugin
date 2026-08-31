@@ -1,6 +1,7 @@
 # Marketplace listing — heyquarry
 
 Published plugin repo: https://github.com/ankit662002/heyquarry-grok-plugin  
+Pinned SHA: `2917be574c12945a0e1f7eeda63adc5380f05e7a`  
 Marketplace PR: https://github.com/xai-org/plugin-marketplace/pull/450  
 Product: https://heyquarry.com
 
@@ -25,7 +26,7 @@ Pin `source.sha` to the commit that ships the polished README + assets (update a
   "source": {
     "source": "url",
     "url": "https://github.com/ankit662002/heyquarry-grok-plugin.git",
-    "sha": "<full-40-char-sha>"
+    "sha": "2917be574c12945a0e1f7eeda63adc5380f05e7a"
   },
   "homepage": "https://heyquarry.com",
   "keywords": ["heyquarry", "shopify stores", "shopify apps", "ecommerce leads", "research"],
