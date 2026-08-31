@@ -19,9 +19,13 @@ Contact enrichment is available with a HeyQuarry Business subscription at [heyqu
 2. Set `HEYQUARRY_API_KEY` to the returned `hq_live_…` value.
 3. Install this plugin from the Grok marketplace (or point `.mcp.json` at `https://heyquarry.com/api/mcp`).
 
-## Rate limits
+## Rate limits & quotas
 
-60 requests per minute per API key.
+- **60 requests/minute** per API key
+- **Free** (`free_plugin`): **10,000 lifetime records** (each store/app/install row returned counts as 1). Facets do not count. When the cap is hit, requests fail until you upgrade.
+- **Business** (`business_plugin`): unlimited records (still rate-limited)
+
+Create keys via super-admin `POST /api/admin/catalog-keys` with `{ "name": "…", "plan": "free_plugin" | "business_plugin" }`.
 
 ## Privacy
 

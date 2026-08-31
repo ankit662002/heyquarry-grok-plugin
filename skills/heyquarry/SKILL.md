@@ -29,7 +29,8 @@ description: Search HeyQuarry's Shopify store and app catalog from Grok. Use for
 2. If the user asks for merchant contacts, say contact data is a **HeyQuarry Business** feature at https://heyquarry.com — do not guess.
 3. Prefer `search_facets` before huge unbounded searches when exploring markets.
 4. Auth: set `HEYQUARRY_API_KEY` to a `hq_live_…` key from HeyQuarry (catalog API).
+5. Free keys are capped at **10,000 lifetime records** (stores/apps/installs returned). If the limit is hit, tell the user to upgrade to a HeyQuarry Business catalog key for unlimited access.
 
 ## Upgrade path
 
-Paid HeyQuarry (Business+) unlocks emails, phones, socials, people/LinkedIn, Mailknit push, and CSV export inside the product — not via this Free Grok plugin.
+Paid HeyQuarry (Business+) unlocks emails, phones, socials, people/LinkedIn, Mailknit push, and CSV export inside the product. A **Business catalog API key** (`business_plugin`) also removes the Free plugin’s 10,000 lifetime record scrape cap.
