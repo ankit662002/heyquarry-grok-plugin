@@ -1,0 +1,43 @@
+{
+  "name": "heyquarry",
+  "displayName": "HeyQuarry",
+  "version": "1.0.0",
+  "description": "Free Shopify store database. Search stores by apps, niche, location, technology and more.",
+  "author": {
+    "name": "HeyQuarry",
+    "email": "support@heyquarry.com"
+  },
+  "homepage": "https://heyquarry.com",
+  "repository": "https://github.com/ankit662002/heyquarry-grok-plugin",
+  "license": "MIT",
+  "keywords": [
+    "heyquarry",
+    "shopify",
+    "shopify stores",
+    "shopify apps",
+    "ecommerce",
+    "research",
+    "store database",
+    "mcp"
+  ],
+  "category": "research",
+  "tags": [
+    "heyquarry",
+    "shopify",
+    "research",
+    "ecommerce",
+    "mcp"
+  ],
+  "mcpServers": "./mcp.json",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "HEYQUARRY_API_KEY": {
+        "type": "string",
+        "title": "HeyQuarry API key",
+        "description": "Catalog API key (hq_live_…). Free keys include 10,000 lifetime records; Business keys are unlimited."
+      }
+    },
+    "required": ["HEYQUARRY_API_KEY"]
+  }
+}

@@ -1,5 +1,16 @@
 {
   "name": "heyquarry",
-  "description": "Shopify store + app catalog for Grok — search millions of stores and apps. Free: firmographics and app metadata only, no contact info.",
-  "version": "1.0.0"
+  "displayName": "HeyQuarry",
+  "description": "Free Shopify store database. Search stores by apps, niche, location, technology and more.",
+  "version": "1.0.0",
+  "homepage": "https://heyquarry.com",
+  "keywords": [
+    "heyquarry",
+    "shopify",
+    "shopify stores",
+    "shopify apps",
+    "ecommerce",
+    "research"
+  ],
+  "category": "research"
 }

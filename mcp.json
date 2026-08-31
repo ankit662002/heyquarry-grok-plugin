@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "heyquarry": {
+      "type": "http",
+      "url": "https://heyquarry.com/api/mcp",
+      "headers": {
+        "Authorization": "Bearer ${HEYQUARRY_API_KEY}"
+      }
+    }
+  }
+}

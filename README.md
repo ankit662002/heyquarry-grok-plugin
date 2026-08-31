@@ -1,6 +1,12 @@
-# HeyQuarry Grok plugin
+# HeyQuarry Grok / Cursor plugin
 
-Hosted MCP + skill for [Grok Build](https://github.com/xai-org/plugin-marketplace) to search HeyQuarry’s Shopify store and app catalog.
+Hosted MCP + skill for Grok Bot and Grok Build — search HeyQuarry’s Shopify store and app catalog.
+
+**Listing copy**
+
+- **Name:** HeyQuarry  
+- **Category:** Research  
+- **Description:** Free Shopify store database. Search stores by apps, niche, location, technology and more.
 
 ## Free scope
 

@@ -1,6 +1,6 @@
 ---
 name: heyquarry
-description: Search HeyQuarry's Shopify store and app catalog from Grok. Use for ecommerce market research, app install overlap, and firmographics. Free responses never include emails, phones, socials, or people — contact data requires a HeyQuarry Business plan in-product.
+description: Free Shopify store database. Search stores by apps, niche, location, technology and more. Use for ecommerce market research and app install overlap. Free responses never include emails, phones, socials, or people.
 ---
 
 # HeyQuarry catalog
